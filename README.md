@@ -24,6 +24,8 @@ There's still a lot of randomness involved, but hopefully this helps anyone who 
 
 ## Results
 
+See [related Reddit post](https://www.reddit.com/r/StableDiffusion/comments/16e39dy/using_revision_with_text_prompts_to_apply_styles/) for more results.
+
 **Reference image** from [Your Name, directed by Makoto Shinkai, 2016](https://en.wikipedia.org/wiki/Your_Name)
 
 <img src="./samples/your_name.jpg" width="150" />
