@@ -22,35 +22,27 @@ result: Image.Image = SDXL_MODEL(
 
 There's still a lot of randomness involved, but hopefully this helps anyone who is trying to get Revision to work!
 
-
-
 ## Results
 
 **Reference image** from [Your Name, directed by Makoto Shinkai, 2016](https://en.wikipedia.org/wiki/Your_Name)
 
-<img src="./samples/your_name.jpg" style="zoom:25%;" />
+<img src="./samples/your_name.jpg" width="150" />
 
 Using prompt "**fish**" with seeds 0 to 3 from left to right
 
 ![](./results/your_name_fish_0-3.jpg)
 
-
-
 **Reference image** from [the Suikoden series by Utagawa Kuniyoshi, 1830](https://en.wikipedia.org/wiki/Ukiyo-e#/media/File:Kuniyoshi_Utagawa,_Suikoden_Series_4.jpg)
 
-<img src="./samples/suikoden.jpg" style="zoom:50%;" />
+<img src="./samples/suikoden.jpg" width="150" />
 
 Using prompt "**frog**" with seeds 0 to 3 from left to right
 
 ![](./results/suikoden_frog_0-3.jpg)
 
-
-
 Mixing the 2 reference images without prompt with seeds 0 to 3 from left to right
 
 ![](./results/your_name_suikoden_0-3.jpg)
-
-
 
 ## Code & Instructions
 
@@ -63,4 +55,3 @@ Then run the following to generate the first image above (reference: "your_name.
 ```python
 $ python3 main.py -p "fish" -i "./samples/your_name.jpg" --seed 0 --clip_model "PATH_TO_CLIP_SAFETENSORS" --sdxl_model "PATH_TO_SDXL_SAFETENSORS"
 ```
-
