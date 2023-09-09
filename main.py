@@ -78,7 +78,7 @@ def main(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("prompt", type=str, default=None)
+    parser.add_argument("-p", "--prompt", type=str, default=None)
     parser.add_argument("-i", "--image", type=str, default="./samples/your_name.jpg")
     parser.add_argument("--clip_model", type=str, default="./models/clip_vision_g.safetensors")
     parser.add_argument("--sdxl_model", type=str, default="./models/sd_xl_base_1.0_0.9vae.safetensors")
